@@ -1,0 +1,36 @@
+/* App.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: left;
+  font-size: 18px;
+}
+
+th {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+tr {
+  align-items: center;
+  justify-content: center;
+}
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+tr:hover {
+  background-color: #e2e2e2;
+}
+
+td s {
+  color: #888;
+}
